@@ -1,6 +1,6 @@
 The Graph is a decentralized query protocol and indexing service for the blockchain. It allows developers to easily track events being emitted from smart contracts on various networks, and write custom data transformation scripts, which are run in real time. The data is also made available through a simple GraphQL API which developers can then use to display things on their frontends.
 
-How it Works
+# How it Works
 
 1) A dApp sends a transaction and some data gets stored in the smart contract. 2/ This smart contract then emits one or more events.
 2) Graph's node keeps scanning Ethereum for new blocks and the data for your subgraph that these blocks may contain.
@@ -10,7 +10,7 @@ How it Works
 
 This is a Next.js project bootstrapped with create-next-app.
 
-Getting Started
+# Getting Started
 
 First, run the development server:
 
